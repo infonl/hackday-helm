@@ -41,20 +41,21 @@ service:
   port: 80
 
 ingress:
-  enabled: false
+  enabled: true
   className: ""
-  annotations: {}
-    # kubernetes.io/ingress.class: nginx
-    # kubernetes.io/tls-acme: "true"
+  annotations: 
+    traefik.ingress.kubernetes.io/router.entrypoints: websecure
+    traefik.ingress.kubernetes.io/router.tls: "true"
+    cert-manager.io/cluster-issuer: letsencrypt-issuer
   hosts:
-    - host: chart-example.local
+    - host: dirk.hackday-k8s.lifely.nl
       paths:
         - path: /
-          pathType: ImplementationSpecific
-  tls: []
-  #  - secretName: chart-example-tls
-  #    hosts:
-  #      - chart-example.local
+          pathType: Prefix
+  tls: 
+    - secretName: dirk-service-cert
+      hosts:
+        - dirk.hackday-k8s.lifely.nl
 
 resources: {}
   # We usually recommend not to specify default resources and to leave this as a conscious
