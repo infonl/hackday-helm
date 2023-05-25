@@ -3,7 +3,17 @@ entries:
   john:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-05-25T11:41:03.1995975+02:00"
+    created: "2023-05-25T13:16:32.0830033+02:00"
+    description: John's Helm chart for Kubernetes
+    digest: b4f24f3cf72a3233cc0f841f09e02fb7657cd842591acbc911a3eb02e321a79c
+    name: john
+    type: application
+    urls:
+    - john-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-05-25T13:16:32.0819937+02:00"
     description: A Helm chart for Kubernetes
     digest: e1f02102fe3216d0adb9b98561d7c9b8d92e994a3ab617924c1a3e650e603f73
     name: john
@@ -11,4 +21,4 @@ entries:
     urls:
     - john-0.1.0.tgz
     version: 0.1.0
-generated: "2023-05-25T11:41:03.1989455+02:00"
+generated: "2023-05-25T13:16:32.0809952+02:00"
