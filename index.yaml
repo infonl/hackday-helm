@@ -2,8 +2,18 @@ apiVersion: v1
 entries:
   dirk:
   - apiVersion: v2
+    appVersion: 1.25.0
+    created: "2023-05-25T15:23:26.887601+02:00"
+    description: A Helm chart for Kubernetes
+    digest: 3a7395444b72f5355dd287d3577279a37ed50300d60ea703e3ec895729ae617e
+    name: dirk
+    type: application
+    urls:
+    - dirk-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-05-25T14:01:26.704065+02:00"
+    created: "2023-05-25T15:23:26.887257+02:00"
     description: A Helm chart for Kubernetes
     digest: a5d931e45400cd37be8b6845f8b3abbf4ad6c1064860e25d5bd0c87e7c3f83f1
     name: dirk
@@ -14,7 +24,7 @@ entries:
   john:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-05-25T14:01:26.705046+02:00"
+    created: "2023-05-25T15:23:26.888512+02:00"
     description: John's Helm chart for Kubernetes
     digest: b4f24f3cf72a3233cc0f841f09e02fb7657cd842591acbc911a3eb02e321a79c
     name: john
@@ -24,7 +34,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-05-25T14:01:26.704555+02:00"
+    created: "2023-05-25T15:23:26.888052+02:00"
     description: A Helm chart for Kubernetes
     digest: e1f02102fe3216d0adb9b98561d7c9b8d92e994a3ab617924c1a3e650e603f73
     name: john
@@ -32,4 +42,4 @@ entries:
     urls:
     - john-0.1.0.tgz
     version: 0.1.0
-generated: "2023-05-25T14:01:26.703471+02:00"
+generated: "2023-05-25T15:23:26.88614+02:00"
